@@ -1,0 +1,53 @@
+/* dark table styles */
+/*Add the necessary styling to make it simlar to the given table*/
+
+table.dark {
+	border: 1px solid #1a1a1a;
+	border-collapse:collapse;
+	}
+
+table.dark th {
+	border-bottom:1px solid #000;
+	font-family: Helvetica;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom:5px;
+	text-transform: uppercase;
+	background-color:#1C1C1C;
+}	
+
+th.col1{
+	text-align: left;
+}
+
+h4{
+	color:white;
+	margin: 0;
+	padding: 5;
+	line-height: normal;
+	font-size: 12px;
+}
+
+table.dark td {
+	font-family: Helvetica;
+	border-right:1px solid #1a1a1a;
+	color:gray;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: left;
+	font-size: 10px;
+}
+
+table.dark h4 {
+	font-weight:normal;
+}
+
+table.dark tr{
+	background: url('file:///C:/Users/vanre/OneDrive/Desktop/CSS Practice/Movies Record/movies/images/gradient.gif');
+}
